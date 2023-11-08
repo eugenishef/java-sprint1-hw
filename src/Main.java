@@ -24,11 +24,6 @@ public class Main {
                 }
                 stepTracker.printStatistic();
 
-//                MonthData monthData = stepTracker.monthToData[month];
-//                monthData.printDaysAndStepsFromMonth();
-//                System.out.println("Общее количество шагов за месяц" + monthData.sumStepsFromMonth());
-//                System.out.println("Максимальное количество шагов в месяце" + monthData.maxSteps());
-//                System.out.println("Лучшая серия: " + monthData.bestSeries(monthData.bestSeries(stepTracker.goalByStepsPerDay)));
             } else if (i==4) {
                 System.out.println("Пока!");
                 scanner.close();

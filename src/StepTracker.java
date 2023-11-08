@@ -79,6 +79,4 @@ class StepTracker {
         System.out.println("Лучшая серия: " + monthData.bestSeries(goalByStepsPerDay));
         System.out.println();
     }
-
-    //void reportIncorrectInput() {}
 }
