@@ -8,8 +8,9 @@ public class Main {
         StepTracker stepTracker = new StepTracker(scanner);
 
         while(true) {
-            int i = scanner.nextInt();
             printMenu();
+
+            int i = scanner.nextInt();
 
             if (i==1) {
                 stepTracker.addNewNumberStepsPerDay();
